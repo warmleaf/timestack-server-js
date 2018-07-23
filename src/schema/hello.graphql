@@ -1,0 +1,10 @@
+type Query {
+    hello(name: String): String!
+}
+type Counter {
+    count: Int!
+    countStr: String
+}
+type Subscription {
+    counter: Counter!
+}

@@ -1,0 +1,18 @@
+{
+  "name": "timestack-server-js",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "orlo wang <ow.cc#outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.14.12",
+    "merge-graphql-schemas": "^1.5.3"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
